@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(86, 86, 86);
+}
+.task1-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+}
+.card {
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.721);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: aquamarine;
+}
+.card2{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: aquamarine;
+}
+.card3{
+    background-color: white;
+}
+.card4{
+    background-color: aquamarine;
+}
+.card5{
+    background-color: white;
+}
+.card6{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: aquamarine;
+}
+.card7{
+    background-color: white;
+}
+.card8{
+    background-color: aquamarine;
+}
